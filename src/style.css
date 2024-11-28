@@ -1,0 +1,356 @@
+header {
+    background-color: #52b1c9;
+    color: #fff;
+    text-align: center;
+    padding: 2px;
+}
+
+nav {
+    background-color: #C83E93;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+nav a {
+    color: #00FCA8;
+    text-decoration: none;
+    padding: 10px 15px; /* Reduced padding */
+    display: inline-block;
+    font-size: 16px; /* Slightly reduced font size */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav a:hover {
+    background-color: #a675ee;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+nav img {
+    margin-right: 4%; /* Reduced right margin */
+    margin-left: 2%;
+}
+
+section {
+    padding: 20px; /* Reduced padding */
+    margin: 10px; /* Reduced margin */
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(127, 216, 238, 0.1);
+    display: flex;
+}
+
+h1, h2 {
+    color: #ca3ded;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    background-color: #31394D;
+}
+
+.home {
+    background: transparent;
+    padding: 50px 0; /* Reduced top and bottom padding */
+    padding-left: 10%; /* Add left padding */
+    padding-right: 10%; /* Add right padding */
+    margin: 10px; /* Reduced margin */
+}
+
+.home h1 {
+    color: cyan;
+    font-size: 40px; /* Slightly reduced font size */
+    line-height: 1.5; /* Adjusted line height */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.home h2 {
+    color: #C83E93;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.home p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px; /* Reduced font size */
+    color: #C83E93;
+}
+
+ul img {
+    margin-left: 80%; /* Adjusted for better alignment */
+}
+
+.about {
+    padding: 5%; /* Reduced padding */
+    text-align: center;
+    display: block;
+    margin: 10px; /* Reduced margin */
+}
+
+.about p {
+    color: #C83E93;
+}
+
+.about h2 {
+    font-size: 30px; /* Reduced font size */
+    color: cyan;
+}
+
+.about img {
+    margin: 30px; /* Reduced margin */
+}
+
+.skills {
+    padding: 5%;
+    display: block;
+}
+.skills img{
+    margin: 8px;
+}
+
+.skills h2 {
+    font-size: 30px; /* Reduced font size */
+    color: cyan;
+    align-items: center;
+    text-align: center;
+    margin: 5%; /* Reduced margin */
+}
+
+.works {
+    align-items: center;
+    text-align: center;
+    display: inline;
+}
+
+.works h2 {
+    font-size: 30px; /* Reduced font size */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: cyan;
+    margin: 5%; /* Reduced margin */
+}
+
+.project-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project-card a {
+    width: calc(33.33% - 40px); /* Adjusted width to allow for spacing */
+    margin: 20px; /* Reduced margin */
+}
+
+.project-card img {
+    width: 200px;
+    height: auto;
+}
+
+.project-card p {
+    color: #00FCA8;
+    font-size: 20px; /* Reduced font size */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.educ {
+    align-items: center;
+    text-align: center;
+    display: inline;
+}
+
+.educ h2 {
+    font-size: 36px; /* Reduced font size */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: cyan;
+    margin: 5%; /* Reduced margin */
+}
+
+.education-container {
+    display: flex; /* Change to flex for row layout */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    gap: 10px; /* Reduced space between items */
+}
+
+.education-item {
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animation effect */
+    border: 2px solid #C83E93; /* Border color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px; /* Padding for the item */
+    background-color: #fff; /* Background color for contrast */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+}
+
+.education-item:hover {
+    transform: translateY(-5px); /* Slightly lift item on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Increase shadow on hover */
+}
+
+.education-item img {
+    border-radius: 10px; /* Rounded corners for images */
+}
+
+.sy {
+    text-align: center;
+    align-items: center;
+}
+
+.sy p {
+    color: #C83E93;
+    font-size: 16px; /* Reduced font size */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sy h3 {
+    color: #C83E93;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.image-label {
+    text-align: center;
+    color: #C83E93;
+    font-style: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px; /* Reduced font size */
+}
+
+.personality ul {
+    padding: 0;
+}
+
+.personality li {
+    margin-bottom: 5px; /* Reduced space between list items */
+    color: #C83E93;
+}
+
+.personality h3 {
+    color: cyan;
+}
+
+.home {
+    padding: 30px 0; /* Reduced padding */
+    text-align: center;
+}
+
+.home p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.content {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px; /* Reduced margin */
+}
+
+.profile img {
+    border-radius: 50%;
+    margin-right: 10px; /* Reduced right margin */
+}
+
+.profile-info h1,
+.profile-info h2 {
+    margin: 3px 0; /* Reduced margin */
+}
+
+p {
+    margin-bottom: 15px; /* Reduced margin */
+}
+
+@media (max-width: 768px) {
+    .profile {
+        flex-direction: column;
+    }
+
+    .profile img {
+        margin-right: 0;
+        margin-bottom: 5px; /* Reduced bottom margin */
+    }
+}
+
+.contact {
+    background-color: #0b152f;
+    padding: 15px 0; /* Reduced padding */
+    text-align: center;
+}
+
+.contact-details {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-details h2 {
+    margin-bottom: 5px; /* Reduced margin */
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Reduced gap */
+}
+
+.social-icons .icon img {
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.social-icons .icon:hover img {
+    transform: scale(1.1); /* Reduced scale for hover effect */
+}
+
+.contact-details p {
+    margin-top: 10px; /* Reduced top margin */
+    color: #52b1c9;
+}
+.skillsf {
+    display: flex;
+    justify-content: center;
+    width: 80%; /* Adjust as needed for the desired width */
+    margin: 0 auto; /* Center horizontally */
+}
+
+/* Center the content inside the containersf */
+.containersf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Center text inside image-labelsf */
+.image-labelsf {
+    text-align: center;
+    
+    
+}
+.image-labelsf img {
+    width: 350px;
+    height: auto;
+    
+    
+}
+.image-labelsf p {
+    font-size: 18px;
+    color: #C83E93;
+    font-weight: bold;
+    text-decoration: none;
+}
+
